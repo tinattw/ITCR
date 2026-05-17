@@ -46,14 +46,14 @@ We automatically load select problems from the [GSM8K](https://arxiv.org/abs/211
 
 Both scripts load a trained focal classifier and serialized reasoning graphs, sweep over miscoverage levels `alpha`, and report empirical coverage plus efficiency. 
 
-- ** “No false” **  
+- ** No false **  
   Uses `get_prediction_set_new` and `calibrate_threshold`. Coverage means that every subgraph in the conformal prediction sequence is a coherent correct subgraph. Results (mean/std coverage and returned-node ratio over repeated calib/test splits) are shown. Optional: set `interpolation` (`"lower"`, `"linear"`, `"higher"`) for quantile interpolation when calibrating `lambda`.
 
   ```bash
   python conformal/main.py
   ```
 
-- ** “No miss” **  
+- ** No miss **  
   Uses `get_prediction_set_no_missing` and `calibrate_threshold_no_missing`. Coverage is defined so that the subgraph includes all factually correct nodes. Results return coverage and efficiency statistics per `alpha`.
 
   ```bash
