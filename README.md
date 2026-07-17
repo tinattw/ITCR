@@ -5,7 +5,7 @@
 <div align="center">
 
 [![](https://img.shields.io/badge/paper-pink?style=plastic&logo=GitBook)](https://openreview.net/)
-[![](https://img.shields.io/badge/-github-green?style=plastic&logo=github)](https://github.com/) 
+[![](https://img.shields.io/badge/-github-green?style=plastic&logo=github)]([https://github.com/tinattw/ITCR/]) 
 </div>
 
 **International Conference on Machine Learning (ICML) 2026**
@@ -75,6 +75,14 @@ python evaluation/main.py
 Please cite our work if you find it useful:
 
 ```bibtex
-
+@misc{wang2026inferencetimeconformalreasoningvalid,
+      title={Inference-Time Conformal Reasoning with Valid Factuality Control for Large Language Models}, 
+      author={Ting Wang and Yuanjie Shi and Yan Yan and Huan Zhang},
+      year={2026},
+      eprint={2606.08831},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.08831}, 
+}
 ```
 
